@@ -14,7 +14,7 @@ class NewsApp extends StatelessWidget {
     return MaterialApp(
       title: 'API News',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: false,
         primaryColor: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,

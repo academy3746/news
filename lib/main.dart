@@ -16,7 +16,7 @@ class NewsApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: false,
-        primaryColor: Colors.blue,
+        primaryColor: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,

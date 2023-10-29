@@ -86,10 +86,11 @@ class DetailScreen extends StatelessWidget {
                   ),
                 ),
               ),
+              // News Body ['description']
               Gaps.v32,
               newsItem['description'] != null
                   ? Text(newsItem['description'])
-                  : const Text("내용 없음"),
+                  : const Text("해당 기사 내용이 없습니다."),
             ],
           ),
         ),
